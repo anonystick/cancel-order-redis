@@ -1,0 +1,15 @@
+POST http://localhost:3000/order
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "order": {
+        "id": "orderId:1234",
+        "products": [
+            {
+                "name": "iPhone13",
+                "price": 1000
+            }
+        ]
+    }
+}
